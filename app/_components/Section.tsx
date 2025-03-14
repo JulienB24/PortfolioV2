@@ -7,7 +7,7 @@ export type SectionProps = PropsWithChildren<{
 
 export const Section = ({ className, children }: SectionProps) => {
   return (
-    <section className={clsx("my-8 md:py-12 lg:my-16 max-w-2xl m-auto lg:px-6 px-4", className)}>
+    <section className={clsx("md:py-20 lg:my-32 max-w-2xl lg:my-16 max-w-2xl m-auto lg:px-6 px-4", className, "my-16")}>
       {children}
     </section>
   );
