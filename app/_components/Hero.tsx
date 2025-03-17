@@ -42,7 +42,7 @@ export const Hero = () => {
       </p>
       <div className="mt-4 lg:mt-6 flex items-center flex-wrap gap-4">
         <Button size="lg" className="w-fit mt-4">
-          Contact me ✉️
+          Contact me
         </Button>
         <Button size="lg" variant="ghost" className="w-fit mt-4">
           Github
