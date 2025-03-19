@@ -29,8 +29,8 @@ export const Contact = () => {
         icon: "success",
       });
       resetForm();
-    } catch (error: any) {
-      console.error("ÉCHEC...", error.text);
+    } catch (error: unknown) {
+      console.error("ÉCHEC...", error);
       Swal.fire({
         icon: "error",
         title: "Oops...",
@@ -56,7 +56,7 @@ export const Contact = () => {
           }}
         />
         </div>
-      <h2 className="font-bold text-4xl lg:text-5xl">Contact Me</h2>
+      <h2 id="contact"className="font-bold text-4xl lg:text-5xl">Contact Me</h2>
       </div>
       <p className="text-xl text-muted-foreground mt-2 lg:mt-4">
         N’hésitez pas à me contacter, je vous répondrai dès que possible.
