@@ -5,8 +5,9 @@ import { CustomIcon } from "./icons/CustomIcon";
 
 export const Hero = () => {
   return (
-    <Section className="flex max:md:flex-col items-start ">
-    <div
+    <Section className="flex flex-col md:flex-row items-center flex-col-reverse">
+      {" "}
+      <div
         aria-hidden="true"
         className="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl"
       >
@@ -20,39 +21,49 @@ export const Hero = () => {
       </div>
       <div className="relative">
         <div className="transform-gpu blur-3xl">
-        <div
-          className="absolute right-0 opacity-50 -z-50 w-56 h-64 bg-gradient-to-tr from-[#11198c] to-[#2e3fff]"
-          style={{
-            clipPath:
-              "polygon(25% 0%, 75% 0%, 99% 19%, 70% 75%, 25% 100%, 3% 40%)",
-          }}
-        />
-        </div> 
+          <div
+            className="absolute right-0 opacity-50 -z-50 w-56 h-64 bg-gradient-to-tr from-[#11198c] to-[#2e3fff]"
+            style={{
+              clipPath:
+                "polygon(25% 0%, 75% 0%, 99% 19%, 70% 75%, 25% 100%, 3% 40%)",
+            }}
+          />
+        </div>
       </div>
-      <div className="flex-2">
-        <h1 className="font-bold text-4xl lg:text-5xl py-3">Julien BREUIL</h1>
-        <h3 className="py-3">
-          {" "}
-          <Code>
+      <div>
+        <div className="">
+          <h1 className="font-bold text-4xl lg:text-5xl py-3 flex flex-nowrap items-center">
             {" "}
-            Developpeur Web et Web Mobile{" "}
-            <CustomIcon className="inline ml-0.5" name="dev" size={16} />
-          </Code>{" "}
-        </h3>
-        <p className="text-lg leading-9 text-muted-foreground z-10">
+            <img
+              src="https://julienb24.github.io/PortFolioJB/static/media/logoJB3.266d51a7a6f23a0e4016.png"
+              alt="JB"
+              className="w-20 mr-7"
+            />
+            Julien BREUIL{" "}
+          </h1>
+          <h3 className="py-3">
+            {" "}
+            <Code>
+              {" "}
+              Developpeur Web et Web Mobile{" "}
+              <CustomIcon className="inline ml-0.5" name="dev" size={16} />
+            </Code>{" "}
+          </h3>
+        </div>
+        <p className="text-lg leading-9 text-muted-foreground z-10 text-justify">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
           quisquam Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Voluptas, aliquid exercitationem in cumque a libero! Cum aspernatur
           eos ratione laborum! eaque non.
         </p>
       </div>
-      <div className="flex flex-2 m-auto">
-        <img
-          src="https://julienb24.github.io/PortFolioJB/static/media/logoJB3.266d51a7a6f23a0e4016.png"
-          alt="JB"
-          className="max-w-xs"
-        />
-      </div>
+      {/* <div className="flex flex-2 order-1 m-auto flex-wrap mb-0 mx-5">
+            <img
+              src="https://julienb24.github.io/PortFolioJB/static/media/logoJB3.266d51a7a6f23a0e4016.png"
+              alt="JB"
+              className="w-32 md:w-40 lg:w-48 max-w-xs mt-5"
+            />
+          </div> */}
     </Section>
   );
 };
