@@ -51,11 +51,7 @@ export const Hero = () => {
           </h3>
         </div>
         <p className="text-lg leading-9 text-muted-foreground z-10 text-justify">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
-          quisquam Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Voluptas, aliquid exercitationem in cumque a libero! Cum aspernatur
-          eos ratione laborum! eaque non.
-        </p>
+        J'aime créer des sites web en tant que développeur web. Toujours curieux, j’aime apprendre et expérimenter de nouvelles technologies pour concevoir des applications modernes et performantes.         </p>
       </div>
       {/* <div className="flex flex-2 order-1 m-auto flex-wrap mb-0 mx-5">
             <img
@@ -70,7 +66,7 @@ export const Hero = () => {
 
 const Code = (props: PropsWithChildren<{ className?: string }>) => {
   return (
-    <span className="text-foreground px-1 -mx-O.5 items-center bg-accent/20 border-accent rounded md  bg-red border py-1">
+    <span className="text-foreground px-1 -mx-O.5 items-center bg-accent/20 border-accent rounded md border py-1">
       {props.children}
     </span>
   );

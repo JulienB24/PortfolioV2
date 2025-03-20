@@ -27,31 +27,34 @@ export const About = () => {
           <h3>
             <Code>Compétences</Code>
           </h3>
-          <div className="grid grid-cols-4 gap-2 my-4">
-            <div className="flex justify-center items-center hover:bg-accent hover:text-accent-foreground p-4 rounded-xl bg-card/10 p-4 border-border border">
+          <div className="text-sm grid grid-cols-4 gap-2 my-4">
+            <div className="flex justify-center items-center hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
               HTML &nbsp;&&nbsp; CSS
             </div>
-            <div className="flex justify-center items-center hover:bg-accent hover:text-accent-foreground p-4 rounded-xl bg-card/10 p-4 border-border border">
+            <div className="flex justify-center items-center hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
               Tailwindcss
               <CustomIcon className="inline ml-0.5" name="tailwind" size={33} />
             </div>
-            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground p-4 rounded-xl bg-card/10 p-4 border-border border">
+            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
               JavaScript&nbsp;
               <FontAwesomeIcon icon={faJsSquare} className="w-8 flex" />
             </div>
-            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground p-4 rounded-xl bg-card/10 p-4 border-border border">
+            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
               React&nbsp;{" "}
               <FontAwesomeIcon icon={faReact} className="w-8 flex" />
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-4">
-            <div className="hover:bg-accent hover:text-accent-foreground hover:bg-sky-700 p-4 rounded-xl bg-card/10 p-4 border-border border">
-              PHP Symfony
+          <div className="text-sm grid grid-cols-4 gap-4">
+            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
+              PHP 
             </div>
-            <div className="hover:bg-accent hover:text-accent-foreground p-4 rounded-xl bg-card/10 p-4 border-border border">
+            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
+              Symfony
+            </div>
+            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
               MySQL
             </div>
-            <div className="hover:bg-accent hover:text-accent-foreground p-4 rounded-xl bg-card/10 p-4 border-border border">
+            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
               PHPmyAdmin
             </div>
           </div>
@@ -62,16 +65,16 @@ export const About = () => {
             <Code>Soft Skills </Code>
           </h3>{" "}
           <div className="grid grid-cols-4 gap-4 my-4">
-            <div className="hover:bg-accent hover:text-accent-foreground p-4 rounded-xl bg-card/10 p-4 border-border border">
+            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
               Adaptabilité
             </div>
-            <div className="hover:bg-accent hover:text-accent-foreground p-4 rounded-xl bg-card/10 p-4 border-border border">
+            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
               Communication
             </div>
-            <div className="hover:bg-accent hover:text-accent-foreground p-4 rounded-xl bg-card/10 p-4 border-border border">
+            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
               Travail d&apos;équipe
             </div>
-            <div className="hover:bg-accent hover:text-accent-foreground p-4 rounded-xl bg-card/10 p-4 border-border border">
+            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
               Créativité
             </div>
           </div>
