@@ -53,13 +53,7 @@ export const Hero = () => {
         <p className="text-lg leading-9 text-muted-foreground z-10 text-justify">
         J'aime créer des sites web en tant que développeur web. Toujours curieux, j’aime apprendre et expérimenter de nouvelles technologies pour concevoir des applications modernes et performantes.         </p>
       </div>
-      {/* <div className="flex flex-2 order-1 m-auto flex-wrap mb-0 mx-5">
-            <img
-              src="https://julienb24.github.io/PortFolioJB/static/media/logoJB3.266d51a7a6f23a0e4016.png"
-              alt="JB"
-              className="w-32 md:w-40 lg:w-48 max-w-xs mt-5"
-            />
-          </div> */}
+
     </Section>
   );
 };

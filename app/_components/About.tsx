@@ -2,10 +2,10 @@ import { Section } from "./Section";
 import { PropsWithChildren } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { CustomIcon } from "./icons/CustomIcon";
-
+import { faDatabase,faWrench,faComments,faPeopleGroup,faPalette } from "@fortawesome/free-solid-svg-icons";
 import {
   faJsSquare,
-  faReact,
+  faReact, faHtml5,faCss3Alt,faPhp,faSymfony
 } from "@fortawesome/free-brands-svg-icons";
 export const About = () => {
   return (
@@ -27,62 +27,61 @@ export const About = () => {
           <h3>
             <Code>Compétences</Code>
           </h3>
-          <div className="text-sm grid grid-cols-4 gap-2 my-4">
-            <div className="flex justify-center items-center hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
-              HTML &nbsp;&&nbsp; CSS
+          <div className="text-sm grid grid-cols-5 gap-2 my-4">
+            <div className="flex flex-wrap justify-center items-center hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
+              HTML<FontAwesomeIcon className="w-4  min-w-3 flex" icon={faHtml5} />
             </div>
-            <div className="flex justify-center items-center hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
-              Tailwindcss
-              <CustomIcon className="inline ml-0.5" name="tailwind" size={33} />
+            <div className="flex flex-wrap justify-center items-center hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
+            CSS<FontAwesomeIcon className="w-4  min-w-3 flex" icon={faCss3Alt} />
+            </div>
+            <div className="flex flex-wrap justify-center items-center hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
+              Tailwind
+              <CustomIcon className="inline ml-0.5 w-5 min-w-5" name="tailwind" size={24}/>
             </div>
             <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
               JavaScript&nbsp;
-              <FontAwesomeIcon icon={faJsSquare} className="w-8 flex" />
+              <FontAwesomeIcon icon={faJsSquare} className="w-5  min-w-3 flex" />
             </div>
             <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
-              React&nbsp;{" "}
-              <FontAwesomeIcon icon={faReact} className="w-8 flex" />
+              React&nbsp;
+              <FontAwesomeIcon icon={faReact} className="w-5 flex" />
             </div>
           </div>
           <div className="text-sm grid grid-cols-4 gap-4">
             <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
-              PHP 
+              PHP&nbsp; <FontAwesomeIcon className="w-6  min-w-4 flex" icon={faPhp} />
             </div>
             <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
-              Symfony
+              Symfony&nbsp; <FontAwesomeIcon className="w-5  min-w-3 flex"icon={faSymfony} />
             </div>
             <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
-              MySQL
+              MySQL&nbsp;<FontAwesomeIcon className="w-4  min-w-2 flex" icon={faDatabase} />
             </div>
-            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
-              PHPmyAdmin
+            <div className="max-[445px]:text-xs max-[375px]:text-[10px] flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
+              PHPmyAdmin              <CustomIcon className="inline ml-0.5 w-5 min-w-5" name="phpMyAdmin" size={24}/>
+
             </div>
           </div>
         </div>
 
-        <div className="py-4">
+        <div className="my-10">
           <h3>
             <Code>Soft Skills </Code>
           </h3>{" "}
-          <div className="grid grid-cols-4 gap-4 my-4">
-            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
-              Adaptabilité
+          <div className="text-sm grid grid-cols-4 gap-4 my-4">
+          <div className="max-[445px]:text-xs max-[375px]:text-[10px] flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
+          Adaptabilité&nbsp;<FontAwesomeIcon className="w-5 flex" icon={faWrench} />
             </div>
-            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
-              Communication
+            <div className="max-[445px]:text-xs max-[375px]:text-[10px] flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
+              Communication &nbsp;<FontAwesomeIcon className="w-5 flex"  icon={faComments} />
             </div>
-            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
-              Travail d&apos;équipe
+            <div className="text-center max-[445px]:text-xs max-[375px]:text-[10px] flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
+              Esprit d'équipe&nbsp;<FontAwesomeIcon className="w-5 flex"  icon={faPeopleGroup} />
             </div>
-            <div className="flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
-              Créativité
+            <div className="max-[445px]:text-xs max-[375px]:text-[10px] flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
+              Créativité&nbsp;<FontAwesomeIcon className="w-5 flex"  icon={faPalette} />
             </div>
           </div>
-        </div>
-        <div className="py-4">
-          <h3>
-            <Code>Mon CV</Code>
-          </h3>
         </div>
       </div>
     </Section>
