@@ -40,11 +40,11 @@ export const Work = () => {
         </div>
         <div className="rounded-md overflow-hidden m-auto">
         <h4 className="underline">William Spencer - PrestaShop</h4>
-        <p className="text-justify">Installation et développement complet du site williamspencer.fr avec PrestaShop. Création d'une boutique en ligne sur mesure, incluant l'intégration de produits, la gestion des commandes, et la personnalisation de l'interface pour une expérience utilisateur optimale.</p>
+        <p className="text-justify">Installation et développement complet du site williamspencer.fr avec PrestaShop. Création d&apos;une boutique en ligne sur mesure, incluant l&apos;intégration de produits, la gestion des commandes, et la personnalisation de l&apos;interface pour une expérience utilisateur optimale.</p>
         </div>
         <div className="rounded-md overflow-hidden m-auto">
         <h4 className="underline">Lily Parker - PrestaShop</h4>
-        <p className="text-justify">Installation et développement complet du site lilyparker.fr avec PrestaShop. Création d'une boutique en ligne personnalisée, incluant l'intégration des produits, la gestion des commandes, et la personnalisation de l'interface pour une expérience utilisateur fluide et moderne.  </p>      </div>
+        <p className="text-justify">Installation et développement complet du site lilyparker.fr avec PrestaShop. Création d&apos;une boutique en ligne personnalisée, incluant l&apos;intégration des produits, la gestion des commandes, et la personnalisation de l&apos;interface pour une expérience utilisateur fluide et moderne.  </p>      </div>
         <div className="rounded-md overflow-hidden shadow-md">
           <a
             href="https://www.lilyparker.fr"
@@ -79,10 +79,10 @@ export const Work = () => {
         </div>
         <div className="rounded-md overflow-hidden m-auto">
         <h4 className="underline">Jeu du Pendu en JavaScript</h4>
-        <p className="text-justify">Implémentation du jeu du Pendu où l'utilisateur doit deviner un mot en proposant des lettres. À chaque mauvaise réponse, une partie du dessin du pendu apparaît, jusqu'à ce que l'utilisateur ait trouvé le mot ou que le dessin soit complet.</p>        </div>
+        <p className="text-justify">Implémentation du jeu du Pendu où l&apos;utilisateur doit deviner un mot en proposant des lettres. À chaque mauvaise réponse, une partie du dessin du pendu apparaît, jusqu&apos;à ce que l&apos;utilisateur ait trouvé le mot ou que le dessin soit complet.</p>        </div>
         <div className="rounded-md overflow-hidden m-auto">
         <h4 className="underline">Mastermind en JavaScript</h4><p className="text-justify">
-        Implémentation du jeu Mastermind où l'utilisateur doit deviner une combinaison de couleurs. Le jeu fournit un retour visuel sur la précision de chaque essai.</p>
+        Implémentation du jeu Mastermind où l&apos;utilisateur doit deviner une combinaison de couleurs. Le jeu fournit un retour visuel sur la précision de chaque essai.</p>
         </div>
         <div className="rounded-md overflow-hidden shadow-md">
           <a

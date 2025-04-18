@@ -12,7 +12,7 @@ export const About = () => {
     <Section>
       <h2 className="font-bold text-4xl lg:text-5xl">About Me</h2>
       <p className="text-lg leading-9 text-muted-foreground z-10 text-justify">
-      Passionné par le développement web et mobile, je me spécialise dans la création d'expériences numériques innovantes. Avec un parcours en management et innovation, je développe constamment mes compétences pour offrir des solutions modernes, performantes et optimisées. Toujours à la recherche de nouveaux défis et technologies, j'apporte une vision polyvalente et une forte capacité d’adaptation.
+      Passionné par le développement web et mobile, je me spécialise dans la création d&apos;expériences numériques innovantes. Avec un parcours en management et innovation, je développe constamment mes compétences pour offrir des solutions modernes, performantes et optimisées. Toujours à la recherche de nouveaux défis et technologies, j&apos;apporte une vision polyvalente et une forte capacité d’adaptation.
       </p>
       <div className="text-xl text-muted-foreground mt-2 lg:mt-4 text-justify">
         <div>
@@ -68,7 +68,7 @@ export const About = () => {
               Communication &nbsp;<FontAwesomeIcon className="w-5 flex"  icon={faComments} />
             </div>
             <div className="text-center max-[445px]:text-xs max-[375px]:text-[10px] flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
-              Esprit d'équipe&nbsp;<FontAwesomeIcon className="w-5 flex"  icon={faPeopleGroup} />
+              Esprit d&apos;équipe&nbsp;<FontAwesomeIcon className="w-5 flex"  icon={faPeopleGroup} />
             </div>
             <div className="max-[445px]:text-xs max-[375px]:text-[10px] flex justify-center items-center flex-wrap hover:bg-accent hover:text-accent-foreground rounded-xl bg-card/10 p-1 border-border border">
               Créativité&nbsp;<FontAwesomeIcon className="w-4 flex"  icon={faPalette} />

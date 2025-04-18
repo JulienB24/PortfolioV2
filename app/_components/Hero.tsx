@@ -51,7 +51,7 @@ export const Hero = () => {
           </h3>
         </div>
         <p className="text-lg leading-9 text-muted-foreground z-10 text-justify">
-        J'aime créer des sites web en tant que développeur web. Toujours curieux, j’aime apprendre et expérimenter de nouvelles technologies pour concevoir des applications modernes et performantes.         </p>
+        J&apos;aime créer des sites web en tant que développeur web. Toujours curieux, j’aime apprendre et expérimenter de nouvelles technologies pour concevoir des applications modernes et performantes.         </p>
       </div>
 
     </Section>
