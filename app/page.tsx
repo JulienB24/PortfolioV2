@@ -1,12 +1,18 @@
 "use client";
+import dynamic from "next/dynamic";
+
+// Importation dynamique de Framer Motion
+const MotionDiv = dynamic(() => import("framer-motion").then(mod => mod.motion.div), {
+  ssr: false,  // Empêche le rendu côté serveur
+});
+
 import { Hero } from "./_components/Hero";
 import { Work } from "./_components/Work";
 import { Contact } from "./_components/Contact";
-import { About } from "./_components/About"
-import { Buttons } from "./_components/Buttons"
-import { Footer } from "./_components/Footer"
+import { About } from "./_components/About";
+import { Buttons } from "./_components/Buttons";
+import { Footer } from "./_components/Footer";
 import Head from "next/head";
-import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -18,61 +24,60 @@ export default function Home() {
         <meta property="og:url" content="https://jb-dev-web.vercel.app/" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        {/* Autres métadonnées ou liens si nécessaire */}
       </Head>
 
       <main className="h-full space-y-24">
-        <motion.div
+        <MotionDiv
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
           <Hero />
-        </motion.div>
+        </MotionDiv>
 
-        <motion.div
+        <MotionDiv
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <Buttons />
-        </motion.div>
+        </MotionDiv>
 
-        <motion.div
+        <MotionDiv
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <About />
-        </motion.div>
+        </MotionDiv>
 
-        <motion.div
+        <MotionDiv
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <Work />
-        </motion.div>
+        </MotionDiv>
 
-        <motion.div
+        <MotionDiv
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4, delay: 0.3 }}
         >
           <Contact />
-        </motion.div>
+        </MotionDiv>
 
-        <motion.div
+        <MotionDiv
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4, delay: 0.3 }}
         >
           <Footer />
-        </motion.div>
+        </MotionDiv>
       </main>
     </>
   );
