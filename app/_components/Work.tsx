@@ -24,7 +24,7 @@ export const Work = () => {
       </div>
           <Code>REGGAO 2024-2025 - CDD</Code>
       <div className="grid grid-cols-2 mt-4 mb-10 lg:mt-6 gap-4 lg:gap-6">
-        <div className="rounded-md overflow-hidden shadow-md">
+        <div className="rounded-md overflow-hidden shadow-md my-auto">
           <a
             href="https://www.williamspencer.fr"
             target="_blank"
@@ -45,7 +45,7 @@ export const Work = () => {
         <div className="rounded-md overflow-hidden m-auto">
         <h4 className="underline">Lily Parker - PrestaShop</h4>
         <p className="text-justify">Installation et développement complet du site lilyparker.fr avec PrestaShop. Création d&apos;une boutique en ligne personnalisée, incluant l&apos;intégration des produits, la gestion des commandes, et la personnalisation de l&apos;interface pour une expérience utilisateur fluide et moderne.  </p>      </div>
-        <div className="rounded-md overflow-hidden shadow-md">
+        <div className="rounded-md overflow-hidden shadow-md my-auto">
           <a
             href="https://www.lilyparker.fr"
             target="_blank"
@@ -63,7 +63,7 @@ export const Work = () => {
       <Code>AFPA 2024 - Formation</Code>
 
       <div className="grid grid-cols-2 mt-4 lg:mt-6 gap-4 lg:gap-6">
-        <div className="rounded-md overflow-hidden shadow-md">
+        <div className="rounded-md overflow-hidden shadow-md my-auto">
           <a
             href="https://julienb24.github.io/pendu/"
             target="_blank"
@@ -84,7 +84,7 @@ export const Work = () => {
         <h4 className="underline">Mastermind en JavaScript</h4><p className="text-justify">
         Implémentation du jeu Mastermind où l&apos;utilisateur doit deviner une combinaison de couleurs. Le jeu fournit un retour visuel sur la précision de chaque essai.</p>
         </div>
-        <div className="rounded-md overflow-hidden shadow-md">
+        <div className="rounded-md overflow-hidden shadow-md my-auto">
           <a
             href="https://julienb24.github.io/masterMind/"
             target="_blank"

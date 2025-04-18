@@ -22,11 +22,11 @@ export const Hero = () => {
       <div className="relative">
         <div className="transform-gpu blur-3xl">
           <div
-            className="absolute right-0 opacity-50 -z-50 w-56 h-64 bg-gradient-to-tr from-[#11198c] to-[#2e3fff]"
-            style={{
-              clipPath:
-                "polygon(25% 0%, 75% 0%, 99% 19%, 70% 75%, 25% 100%, 3% 40%)",
-            }}
+    className="absolute right-0 opacity-50 z-[-10] pointer-events-none w-56 h-64 bg-gradient-to-tr from-[#11198c] to-[#2e3fff]"
+    style={{
+      clipPath:
+        "polygon(25% 0%, 75% 0%, 99% 19%, 70% 75%, 25% 100%, 3% 40%)",
+    }}
           />
         </div>
       </div>

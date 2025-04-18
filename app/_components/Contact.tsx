@@ -97,11 +97,11 @@ export const Contact = () => {
 
           {/* Boutons */}
           <div className="flex justify-center gap-4 mt-4">
+            {/* <Button type="button" onClick={resetForm} className="bg-purple-700 text-white">
+              Annuler
+            </Button> */}
             <Button type="submit" className="bg-blue-800 text-white">
               Envoyer
-            </Button>
-            <Button type="button" onClick={resetForm} className="bg-purple-700 text-white">
-              Annuler
             </Button>
           </div>
         </form>
