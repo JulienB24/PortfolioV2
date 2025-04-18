@@ -35,9 +35,9 @@ export const Hero = () => {
           <h1 className="font-bold text-4xl lg:text-5xl py-3 flex flex-nowrap items-center">
             {" "}
             <img
-              src="https://julienb24.github.io/PortFolioJB/static/media/logoJB3.266d51a7a6f23a0e4016.png"
+              src="/img/JB.png"
               alt="JB"
-              className="w-20 mr-7"
+              className="rounded-full w-20 mr-7 bg-gradient-to-r from-purple-700 to-blue-800"
             />
             Julien BREUIL{" "}
           </h1>
@@ -60,7 +60,7 @@ export const Hero = () => {
 
 const Code = (props: PropsWithChildren<{ className?: string }>) => {
   return (
-    <span className="text-foreground px-1 -mx-O.5 items-center bg-accent/20 border-accent rounded md border py-1">
+    <span className="md:text-xl text-foreground px-1 -mx-O.5 items-center bg-accent/20 border-accent rounded md border py-1">
       {props.children}
     </span>
   );

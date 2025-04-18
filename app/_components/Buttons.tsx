@@ -36,14 +36,17 @@ export const Buttons = () => {
             <FontAwesomeIcon className="mr-1 mt-0.5" icon={faLinkedin} /> Linkedin
           </Link>
         </Button>
-        <Button size="lg" variant="ghost" className="z-10 w-fit mt-4">
-          <FontAwesomeIcon className="mr-1 mt-0.5" icon={faXTwitter} />
-        </Button>
-        <Button size="lg" variant="ghost" className="z-10 w-fit mt-4">
-          <Link  target="_blank"
-            className="flex flex-nowrap"
-            href="#"><FontAwesomeIcon className="mr-1 mt-0.5" icon={faCircleUser} />Mon CV </Link>
-        </Button>
+        <Link href="https://x.com/JulienBreu30698" target="_blank">
+  <Button size="lg" variant="ghost" className="z-10 w-fit mt-4">
+    <FontAwesomeIcon className="mr-1 mt-0.5" icon={faXTwitter} />
+  </Button>
+</Link>
+        <Link href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+  <Button size="lg" variant="ghost" className="z-10 w-fit mt-4">
+    <FontAwesomeIcon className="mr-1 mt-0.5" icon={faCircleUser} />
+    Mon CV
+  </Button>
+</Link>
       </div>
     </Section>
   );

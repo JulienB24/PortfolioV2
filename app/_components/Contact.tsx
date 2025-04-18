@@ -68,31 +68,31 @@ export const Contact = () => {
           {/* Nom et Prénom */}
           <div className="flex items-center p-2  shadow-sm">
             <User className="text-gray-500 mr-2" />
-            <Input type="text" name="from_name" placeholder="Nom et Prénom" required />
+            <Input type="text" name="from_name" placeholder="Nom et Prénom" className="text-neutral-50 mr-2" required />
           </div>
 
           {/* Téléphone */}
           <div className="flex items-center p-2 shadow-sm">
             <Phone className="text-gray-500 mr-2" />
-            <Input type="tel" name="phone" placeholder="Téléphone" required />
+            <Input type="tel" name="phone" placeholder="Téléphone" className="text-neutral-50 mr-2" required />
           </div>
 
           {/* Email */}
           <div className="flex items-center rounded-lg p-2 shadow-sm">
             <Mail className="text-gray-500 mr-2" />
-            <Input type="email" name="email" placeholder="Adresse mail" required />
+            <Input type="email" name="email" placeholder="Adresse mail" className="text-neutral-50 mr-2" required />
           </div>
 
           {/* Objet */}
           <div className="flex items-center p-2 shadow-sm">
             <AtSign className="text-gray-500 mr-2" />
-            <Input type="text" name="object" placeholder="Objet du mail" required />
+            <Input type="text" name="object" placeholder="Objet du mail" className="text-neutral-50 mr-2" required />
           </div>
 
           {/* Message */}
           <div className="flex p-2 shadow-sm">
           <MessageCircle className="text-gray-500 mr-2" />
-            <textarea className="bg-background w-full h-40 border rounded-md"  name="object" placeholder="  Votre message" required />
+            <textarea className="bg-background w-full h-40 border rounded-md text-neutral-50 p-2"  name="object" placeholder="Votre message"  required />
           </div>
 
           {/* Boutons */}
